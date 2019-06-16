@@ -1,3 +1,13 @@
+使用React+Redux+AntDesign实现一个用户列表，能够对列表进行显示、增加和删除操作。
+
+功能包括：
+
+1.显示用户信息，点击用户条目后可展开显示用户信息，包括姓名、年龄、性别、头像<br>
+2.增加用户，在输入用户信息后，点击按钮可以新增用户条目到列表中<br>
+3.删除用户，点击用户条目后的删除按钮可以从列表中删除用户条目<br>
+
+其使用redux-persist来在 LocalStorage 存储数据（npm install --save redux-persist / yarn add redux-persist）；
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
